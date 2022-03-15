@@ -1,0 +1,40 @@
+{
+  "name": "clean-arch-in-node",
+  "version": "1.0.0",
+  "description": "Clean Architecture in Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev ./src/App.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://topkoder.visualstudio.com/DefaultCollection/SandBox/_git/clean-arch-in-node"
+  },
+  "keywords": [
+    "Clean",
+    "Architecture"
+  ],
+  "author": "Igor Toporet",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/koa": "^2.13.4",
+    "@types/koa-bodyparser": "^4.3.4",
+    "@types/node": "^16.11.7",
+    "jest": "^27.3.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "ajv": "^8.7.1",
+    "awilix": "^6.0.0",
+    "awilix-koa": "^6.0.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "pg": "^8.7.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.4.0",
+    "typeorm": "^0.2.40"
+  }
+}

@@ -1,0 +1,24 @@
+### Create new task list (invalid payload)
+
+POST http://localhost:3000/lists
+content-type: application/json
+
+{
+  "foo": "bar"
+}
+
+
+### Create new task list (with a name)
+
+POST http://localhost:3000/lists/?garbage=will-be-ignored
+content-type: application/json
+
+{
+  "name": "Woohoo! 123"
+}
+
+
+### Shows all task lists (name, incomplete tasks number)
+
+GET http://localhost:3000/lists
+

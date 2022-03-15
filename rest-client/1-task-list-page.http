@@ -1,0 +1,3 @@
+### Delete a task list (by name)
+
+DELETE http://localhost:3000/lists/woohoo
