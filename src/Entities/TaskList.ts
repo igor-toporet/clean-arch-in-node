@@ -1,4 +1,4 @@
-import Result from "../Result";
+import { Result } from "../Result";
 
 export default class TaskList {
   private _name: TaskListName;

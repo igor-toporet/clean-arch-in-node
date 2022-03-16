@@ -1,6 +1,6 @@
 import { Connection } from "typeorm";
 import TaskList, { TaskListName } from "../../Entities/TaskList";
-import Result from "../../Result";
+import { Result } from "../../Result";
 import ITaskListGateway, { TaskListCreated } from "../ITaskListGateway";
 import { TaskListDto } from "./DTOs/TaskListDto";
 
